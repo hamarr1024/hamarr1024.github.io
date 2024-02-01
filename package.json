@@ -1,0 +1,20 @@
+{
+  "name": "hamarr-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^2.0.0-rc.0",
+    "vuepress-theme-reco": "^2.0.0-rc.5"
+  }
+}
