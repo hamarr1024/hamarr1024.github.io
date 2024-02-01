@@ -12,7 +12,7 @@ export default defineUserConfig({
     },
 
   },
-  base:"/",
+  // base:"/",
   theme: recoTheme({
     locales: {
       '/': {
@@ -22,9 +22,9 @@ export default defineUserConfig({
     logo: '/logo.png',
     // authorAvatar: '/head.png',
     author: 'hamarr',
-    docsRepo: 'https://github.com/hamarr1024/blogs.git',
+    docsRepo: 'https://github.com/hamarr1024/hamarr1024.github.io.git',
     docsBranch: 'master',
-    docsDir: '/docs/',
+    // docsDir: '/docs/',
     lastUpdatedText: '',
     series: {
       '/blogs/java/collections/': [
