@@ -12,7 +12,7 @@ export default defineUserConfig({
     },
 
   },
-  base:"/blogs/",
+  base:"/",
   theme: recoTheme({
     locales: {
       '/': {
