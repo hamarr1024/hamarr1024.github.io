@@ -9,7 +9,7 @@ export default defineUserConfig({
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
       lang: 'zh-CN',
-      title: 'hammar的笔记'
+      title: 'hamarr的笔记'
     },
 
   },
