@@ -1,4 +1,0 @@
-const data = JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"","lang":"zh-CN","frontmatter":{"home":true,"isShowTitleInHome":true,"modules":["BannerBrand"],"bannerBrand":{"title":"hamarr的笔记","description":"学习 | 思考 | 分享 | 提升","bgImage":"/bg.svg"}},"headers":[],"git":{"createdTime":1706869632000,"updatedTime":1706869632000,"contributors":[{"name":"hamarr1024","email":"hamarr1024@icloud.com","commits":1}]},"filePathRelative":"README.md"}');
-export {
-  data
-};
