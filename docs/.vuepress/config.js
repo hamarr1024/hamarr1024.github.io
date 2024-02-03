@@ -1,8 +1,9 @@
 import { defineUserConfig } from 'vuepress'
 import recoTheme from 'vuepress-theme-reco'
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 export default defineUserConfig({
-  head: [['link',{ rel: 'icon', href: '/favico.ico' }]],
+  head: [['link', { rel: 'icon', href: '/favico.ico' }]],
   locales: {
     // 键名是该语言所属的子路径
     // 作为特例，默认语言可以使用 '/' 作为其路径。
@@ -42,6 +43,18 @@ export default defineUserConfig({
           ],
         },
       ],
+      '/blogs/java/spi/': [
+        {
+          text: 'Java SPI',
+          children: [
+            'introduction.md',
+            'Java SPI是什么.md',
+            'Java SPI的使用.md',
+            'Java SPI源码分析.md',
+            '总结.md',
+          ],
+        }
+      ],
     },
     navbar: [
       {
@@ -52,7 +65,8 @@ export default defineUserConfig({
         text: 'Java',
         icon: 'Cafe',
         children: [
-          { text: '集合', link: '/blogs/java/collections/源码分析-ArrayList.md' },
+          // { text: '集合', link: '/blogs/java/collections/源码分析-ArrayList.md' },
+          { text: 'SPI', link: '/blogs/java/spi/introduction.md' },
         ],
       }
     ],
@@ -66,6 +80,18 @@ export default defineUserConfig({
     vuePreviewsDir: './docs/.vuepress/vue-previews',
     componentsDir: './docs/.vuepress/components',
     // primaryColor: '#3aa675',
+    // plugins: {
+    //   mdEnhance: {
+    //     mermaid: true
+    //   }
+    // },
   }),
-  debug: true,
+  plugins: [
+    mdEnhancePlugin({
+      // Enable mermaid
+      mermaid: true,
+      markup:true,
+    }),
+  ],
+  // debug: true,
 })
