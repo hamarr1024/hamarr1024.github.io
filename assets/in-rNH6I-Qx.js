@@ -1,1 +1,0 @@
-import{f as t,_ as n,o,c as _,t as e,u as a}from"./app-ChDUwo2y.js";const c=t(1),r={style:{width:"100px"}},i={__name:"in",setup(p){const s=t(2);return(u,f)=>(o(),_("div",r,"vue preview "+e(a(c))+" "+e(s.value),1))}},m=n(i,[["__file","in.vue"]]);export{m as default};
