@@ -55,6 +55,16 @@ export default defineUserConfig({
           ],
         }
       ],
+      '/blogs/algorithms/binary-tree':[
+        {
+          text: '二叉树',
+          children: [
+            '1.树的基本概念.md',
+            '2.二叉树.md',
+            '3.二叉搜索树.md',
+          ],
+        }
+      ]
     },
     navbar: [
       {
@@ -68,6 +78,14 @@ export default defineUserConfig({
           // { text: '集合', link: '/blogs/java/collections/源码分析-ArrayList.md' },
           { text: 'SPI', link: '/blogs/java/spi/introduction.md' },
         ],
+      },
+      {
+        text: 'Algorithms',
+        icon: 'DataStructured',
+        children: [
+          // { text: '集合', link: '/blogs/java/collections/源码分析-ArrayList.md' },
+          { text: '二叉树', link: '/blogs/algorithms/binary-tree/1.树的基本概念.md' },
+        ], 
       }
     ],
     autoSetBlogCategories: false,

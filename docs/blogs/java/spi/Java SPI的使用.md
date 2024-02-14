@@ -1,5 +1,6 @@
 ---
 title: Java SPI的使用
+date: 2024-02-03
 ---
 ## Java SPI的使用
 
