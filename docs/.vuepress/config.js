@@ -62,6 +62,8 @@ export default defineUserConfig({
             '1.树的基本概念.md',
             '2.二叉树.md',
             '3.二叉搜索树.md',
+            '4.平衡二叉搜索树.md',
+            '5.AVL树.md',
           ],
         }
       ]
