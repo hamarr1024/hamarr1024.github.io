@@ -14,14 +14,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "katex": "^0.16.9",
     "markmap-lib": "^0.15.8",
     "markmap-toolbar": "^0.15.8",
     "markmap-view": "^0.15.8",
+    "mathjax-full": "^3.2.2",
     "mermaid": "^10.8.0",
     "vuepress": "^2.0.0-rc.0",
     "vuepress-theme-reco": "^2.0.0-rc.5"
   },
   "dependencies": {
+    "markdown-it": "^13.0.2",
+    "markdown-it-mathjax3": "^4.3.2",
     "vuepress-plugin-md-enhance": "^2.0.0-rc.10"
   }
 }

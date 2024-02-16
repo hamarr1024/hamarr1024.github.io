@@ -57,13 +57,14 @@ export default defineUserConfig({
       ],
       '/blogs/algorithms/binary-tree':[
         {
-          text: '二叉树',
+          text: '树',
           children: [
             '1.树的基本概念.md',
             '2.二叉树.md',
             '3.二叉搜索树.md',
             '4.平衡二叉搜索树.md',
             '5.AVL树.md',
+            '6.B-树.md',
           ],
         }
       ]
@@ -86,7 +87,7 @@ export default defineUserConfig({
         icon: 'DataStructured',
         children: [
           // { text: '集合', link: '/blogs/java/collections/源码分析-ArrayList.md' },
-          { text: '二叉树', link: '/blogs/algorithms/binary-tree/1.树的基本概念.md' },
+          { text: '树', link: '/blogs/algorithms/binary-tree/1.树的基本概念.md' },
         ], 
       }
     ],
@@ -111,6 +112,10 @@ export default defineUserConfig({
       // Enable mermaid
       mermaid: true,
       markup:true,
+      // Enable Tex Support using katex
+      katex: true,
+      // Enable Tex Support using mathjax
+      mathjax: true,
     }),
   ],
   // debug: true,
