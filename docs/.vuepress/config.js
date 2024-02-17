@@ -59,6 +59,7 @@ export default defineUserConfig({
         {
           text: '树',
           children: [
+            '0.引入.md',
             '1.树的基本概念.md',
             '2.二叉树.md',
             '3.二叉搜索树.md',
@@ -66,6 +67,7 @@ export default defineUserConfig({
             '5.AVL树.md',
             '6.B-树.md',
             '7.红黑树.md',
+            '8.性能测试.md',
           ],
         }
       ]
@@ -88,7 +90,7 @@ export default defineUserConfig({
         icon: 'DataStructured',
         children: [
           // { text: '集合', link: '/blogs/java/collections/源码分析-ArrayList.md' },
-          { text: '树', link: '/blogs/algorithms/binary-tree/1.树的基本概念.md' },
+          { text: '树', link: '/blogs/algorithms/binary-tree/0.引入.md' },
         ], 
       }
     ],
